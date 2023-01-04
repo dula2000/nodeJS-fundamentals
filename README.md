@@ -1,5 +1,7 @@
 # nodeJS-fundamentals
 
+Node.js is an open-source and cross-platform runtime environment built on Chrome’s V8 JavaScript engine for executing JavaScript code outside of a browser.
+
 The following list contains some of the important core modules in Node.js:
 
 Core Modules              	Description
