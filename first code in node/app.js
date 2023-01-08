@@ -8,5 +8,7 @@
 
 // console.log(window)
 
-var message ='';
-console.log(global.message);
+// var message ='';
+// console.log(global.message);
+
+console.log(module);

@@ -14,3 +14,6 @@ process          	 provides information and control about the current Node.js pr
 os	               provides information about the operating system.
 querystring	       utility used for parsing and formatting URL query strings.
 url	               module provides utilities for URL resolution and parsing.
+
+
+*** every node application there has be atleast one module.. It called as main module.
