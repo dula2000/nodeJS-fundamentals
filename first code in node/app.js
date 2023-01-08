@@ -17,7 +17,21 @@
 
 // logger.log('message');
 
-const path = require('path');
 
-var pathObj = path.parse(__filename);
-console.log(pathObj);
+//PATH MODULE
+
+// const path = require('path');
+
+// var pathObj = path.parse(__filename);
+// console.log(pathObj);
+
+
+//OS MODULE
+const os = require('os');
+
+var totalMem= os.totalmem();
+var freeMem= os.freemem();
+
+console.log('Total memory is : '+totalMem);
+console.log(`total free memory is ${freeMem}`);
+
