@@ -1,9 +1,12 @@
 
 
-function sayMyName(name){
-    console.log(" Hello my name is "+name);
-}
+// function sayMyName(name){
+//     console.log(" Hello my name is "+name);
+// }
 
-// sayMyName('dds');
+// // sayMyName('dds');
 
-console.log(window)
+// console.log(window)
+
+var message ='';
+console.log(global.message);
