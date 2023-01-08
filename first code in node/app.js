@@ -26,12 +26,21 @@
 // console.log(pathObj);
 
 
-//OS MODULE
-const os = require('os');
+// //OS MODULE
+// const os = require('os');
 
-var totalMem= os.totalmem();
-var freeMem= os.freemem();
+// var totalMem= os.totalmem();
+// var freeMem= os.freemem();
 
-console.log('Total memory is : '+totalMem);
-console.log(`total free memory is ${freeMem}`);
+// console.log('Total memory is : '+totalMem);
+// console.log(`total free memory is ${freeMem}`);
+
+//FILE SYSTEM MODULE
+
+const fs = require('fs');
+
+fs.readdir('./', function(err,files){
+  if(err) console.log('ERROR', err);
+  else console.log('result', files);
+});
 
