@@ -2,6 +2,10 @@
 
 Node.js is an open-source and cross-platform runtime environment built on Chrome’s V8 JavaScript engine for executing JavaScript code outside of a browser.
 
+As you try to understand the Node.js event loop, one important part of it is process.nextTick(). Every time the event loop takes a full trip, we call it a tick.
+
+When we pass a function to process.nextTick(), we instruct the engine to invoke this function at the end of the current operation, before the next event loop tick starts
+
 The following list contains some of the important core modules in Node.js:
 
 Core Modules              	Description
