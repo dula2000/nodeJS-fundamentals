@@ -37,10 +37,23 @@
 
 //FILE SYSTEM MODULE
 
-const fs = require('fs');
+// const fs = require('fs');
 
-fs.readdir('./', function(err,files){
-  if(err) console.log('ERROR', err);
-  else console.log('result', files);
+// fs.readdir('./', function(err,files){
+//   if(err) console.log('ERROR', err);
+//   else console.log('result', files);
+// });
+
+//EVENT MODULE
+
+const EventEmitter = require('events');
+const emitter = new EventEmitter();
+
+//Register a listner
+emitter.on('messageLogged',function(){
+  console.log('Listner Called')
 });
+
+//Raise an event
+emitter.emit('messageLogged');       
 
