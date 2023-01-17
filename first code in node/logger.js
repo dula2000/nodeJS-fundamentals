@@ -1,4 +1,4 @@
-var x= ;
+var x= n;
 var url = 'http://mylogger.io/log';
 
 function log(message){
