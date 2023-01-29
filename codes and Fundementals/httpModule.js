@@ -4,6 +4,10 @@ const server = http.createServer((req,res)=>{
         res.write('hello world');
         res.end();
     }
+    if(req.url==='/courses'){
+        res.write(JSON.stringify([1,3,4,5]));
+        res.end();
+    }
 });
 
 
