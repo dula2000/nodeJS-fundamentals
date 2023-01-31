@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-fundamentals",
+  "version": "1.0.0",
+  "description": "Node.js is an open-source and cross-platform runtime environment built on Chrome’s V8 JavaScript engine for executing JavaScript code outside of a browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dula2000/nodeJS-fundamentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dula2000/nodeJS-fundamentals/issues"
+  },
+  "homepage": "https://github.com/dula2000/nodeJS-fundamentals#readme"
+}
